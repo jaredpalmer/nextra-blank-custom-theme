@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "slug": "/blog/hello-world",
+      "date": "December 23, 2020",
+      "title": "Hello World"
+    },
+    {
+      "slug": "/blog/another-one",
+      "date": "June 16, 2020",
+      "title": "Another one"
+    }
+  ]
+}

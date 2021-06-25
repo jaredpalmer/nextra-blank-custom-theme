@@ -1,0 +1,28 @@
+{
+  "name": "jaredpalmer",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^1.6.22",
+    "next": "^11.0.1",
+    "nextra": "^0.4.5",
+    "nextra-theme-blog": "^0.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.1.1"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
