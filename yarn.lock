@@ -106,7 +106,7 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-2.0.0-next.9.tgz#a269c2e2ecd86490e664fef789ae0d795e6ee509"
   integrity sha512-ZHEwW79zXQrII6ZSaIDgxd80IDRB6Zg/2N1IivQ62j4qlAZd78rbbAc0BQKwADYpuFg96g0pFbuZ7/+vl1gR6A==
 
-"@mdx-js/react@^1.6.18", "@mdx-js/react@^1.6.22":
+"@mdx-js/react@^1.6.22":
   version "1.6.22"
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.6.22.tgz#ae09b4744fddc74714ee9f9d6f17a66e77c43573"
   integrity sha512-TDoPum4SHdfPiGSAaRBw7ECyI8VaHpK8GJugbJIJuqyh6kzw9ZLJZW3HGL3NNrJGxcAixUvqROm+YuQOo5eXtg==
@@ -173,11 +173,6 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
-
-"@tailwindcss/typography@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.2.0.tgz#b597c83502e3c3c6641a8aaabda223cd494ab349"
-  integrity sha512-aPgMH+CjQiScLZculoDNOQUrrK2ktkbl3D6uCLYp1jgYRlNDrMONu9nMu8LfwAeetYNpVNeIGx7WzHSu0kvECg==
 
 "@tailwindcss/typography@^0.4.1":
   version "0.4.1"
@@ -1066,11 +1061,6 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-"emoji-regex@>=6.0.0 <=6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-6.1.1.tgz#c6cd0ec1b0642e2a3c67a1137efc5e796da4f88e"
-  integrity sha1-xs0OwbBkLio8Z6ETfvxeeW2k+I4=
-
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
@@ -1389,13 +1379,6 @@ get-stream@^4.1.0:
   integrity sha512-GMat4EJ5161kIy2HevLlr4luNjBgvmj413KaQA7jt4V8B4RDsfpHk7WQ9GVqfYyyx8OS/L66Kox+rJRNklLK7w==
   dependencies:
     pump "^3.0.0"
-
-github-slugger@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/github-slugger/-/github-slugger-1.3.0.tgz#9bd0a95c5efdfc46005e82a906ef8e2a059124c9"
-  integrity sha512-gwJScWVNhFYSRDvURk/8yhcFBee6aFjye2a7Lhb2bUyRulpIoek9p0I9Kt7PT67d/nUlZbFu8L9RLiA0woQN8Q==
-  dependencies:
-    emoji-regex ">=6.0.0 <=6.1.1"
 
 glob-parent@^5.1.0, glob-parent@~5.1.0, glob-parent@~5.1.2:
   version "5.1.2"
@@ -2384,17 +2367,6 @@ next@^11.0.1:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
-nextra-theme-blog@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/nextra-theme-blog/-/nextra-theme-blog-0.1.6.tgz#7ca96ed233ea7ec32ac99860aad7cf1de578a10f"
-  integrity sha512-La8SCDHmJZQxI/9X4jDRcOgkiwAaHTmufaISzAymeJN8geXQELr9XJowpZYUNC6YEEJO2Wqux72PsuLu1BYNDg==
-  dependencies:
-    "@mdx-js/react" "^1.6.18"
-    "@tailwindcss/typography" "^0.2.0"
-    github-slugger "^1.3.0"
-    prism-react-renderer "^1.1.1"
-    react-cusdis "^2.0.1"
-
 nextra@^0.4.5:
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/nextra/-/nextra-0.4.5.tgz#3e0b600307ad22ee3cc4d450b6a3840794dc70f4"
@@ -2806,11 +2778,6 @@ pretty-hrtime@^1.0.3:
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
-prism-react-renderer@^1.1.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.2.1.tgz#392460acf63540960e5e3caa699d851264e99b89"
-  integrity sha512-w23ch4f75V1Tnz8DajsYKvY5lF7H1+WvzvLUcF0paFxkTHSp42RS0H5CttdN2Q8RR3DRGZ9v5xD/h3n8C8kGmg==
-
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -2947,11 +2914,6 @@ raw-body@2.4.1:
     http-errors "1.7.3"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
-
-react-cusdis@^2.0.1:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/react-cusdis/-/react-cusdis-2.1.3.tgz#95ed31822689f2621a2cc1d9a4c8d4ff64030686"
-  integrity sha512-fUJOAUY7a3y21fNzlRWUSTr/ZMsejQAYWIWdsNuBPPZHbUrBvke/8Gw4OL5Mlrth7jLw8VTNssX0WBX5/prorQ==
 
 react-dom@^17.0.2:
   version "17.0.2"
