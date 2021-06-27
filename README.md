@@ -1,4 +1,4 @@
-# Nextra Blank
+# Nextra Blank Custom Theme/Boilerplate Example
 
 A nearly blank MDX blog/content site powered by a custom [Nextra](https://nextra.vercel.app) theme (see `components/layout.js`) w/Tailwind already setup. 
 
