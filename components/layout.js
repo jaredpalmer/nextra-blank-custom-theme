@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import { MDXProvider } from '@mdx-js/react';
-import Link from 'next/link';
 import { Header } from './header';
 
 const components = {};
