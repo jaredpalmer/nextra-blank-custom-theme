@@ -13,8 +13,8 @@ export default function Home(props) {
               <span className="block text-gray-500 w-[9.5rem] text-right">
                 {p.date}
               </span>
-              <Link href={p.slug}>
-                <a className="block font-bold">{p.title}</a>
+              <Link href={p.slug} className="block font-bold">
+                {p.title}
               </Link>
             </li>
           ))}
